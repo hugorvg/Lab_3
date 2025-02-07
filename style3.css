@@ -2,6 +2,14 @@
     display: flex;
     flex-direction: row;
 }
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    padding: 10px;
+
+}
  
 .item {
     flex: 1;
@@ -18,3 +26,42 @@
     display: block;
     margin: 0 auto 10px;
 }
+
+.nav-item {
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+   
+}
+
+.dropdown div{
+    border: 1px solid lightgray;
+    padding: 10px 150px 10px 10px;
+}
+
+
+.nav-item a:hover{
+    background-color: #bdbbbb;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.nav-item:hover .dropdown{
+    display: block;
+    
+}
+
+
+
+
