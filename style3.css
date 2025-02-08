@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     background-color: #333;
-    padding: 10px;
+    padding: 20px;
 
 }
  
@@ -41,7 +41,7 @@
     display: none;
     position: absolute;
     background-color: white;
-   
+    margin-top: 25px;
 }
 
 .dropdown div{
@@ -53,7 +53,7 @@
 .nav-item a:hover{
     background-color: #bdbbbb;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
 
 }
 
